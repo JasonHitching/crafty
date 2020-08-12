@@ -8,7 +8,6 @@ Technology | Purpose
 ------------ | -------------
 [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) | Programming Language Used
 [ASP.NET](https://dotnet.microsoft.com/apps/aspnet) | Web Framework Used
-[Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/) | Serves as an object-relational mapper (O/RM)
 [Visual Studio](https://visualstudio.microsoft.com/) | IDE Used
 
 ## Authors

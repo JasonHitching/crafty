@@ -24,6 +24,17 @@ namespace Crafty.WebSite.Controllers
         {
             return productService.GetProducts();
         }
+
+        [Route("Rate")]
+        [HttpGet]
+        public ActionResult Get(
+            [FromQuery] string ProductId,
+            [FromQuery] int Rating)
+        {
+            productService.AddRating(ProductId, Rating);
+
+            return Ok();
+        }
     }
 
 }
